@@ -1,0 +1,54 @@
+body {
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration:solid;
+}
+
+.main__menu {
+    color: cornflowerblue;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.title {
+    color: #222222;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: bold;
+}
+
+.subtitle {
+    color: coral;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 80px;
+}
+
+.subsubtitle {
+    color: rgb(85, 56, 190);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 60px;
+}
+
+.text {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987;
+}
+
+.catalog_img {
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+.contact_img {
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
