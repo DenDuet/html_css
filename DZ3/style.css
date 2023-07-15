@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.header {
+    width: 1172px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+    flex-wrap: wrap;
+}
+.header__img {
+    width: 137px;
+}
+.header__menu {
+    width: 533px;
+    height: 17px;
+    margin-left: 346px;
+    display: flex;
+    gap: 20px;
+    margin-right: 16px;
+    flex-wrap: wrap;
+}
+
+.a__header {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    text-decoration:none;
+    color: #000;
+    font-size: 14px;
+    font-style: medium;
+    font-weight: 400;
+    line-height: normal;
+}
+.top__img {
+    margin-top: 95px;
+    padding-left: 39px;
+}
+.top {
+    display: flex;
+    flex-wrap: wrap;
+}
+.top__text {
+    margin-top: 155px;
+}
+
+.top__text__p {
+    width: 466px;
+    margin-top: 17px;
+    color: #888;
+    font-size: 20px;
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.top__buttons {
+    margin-top: 37px;
+    padding-bottom: 103px;
+    display: flex;
+}
+
+.title {
+    width: 522px;
+    position: relative;
+    color: #000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.title img {
+    position: absolute;
+    top: 64px;
+    left: -26px;
+}
+
+.center {
+    padding-left: calc(50% - 586px);
+    padding-right: calc(50% - 586px);
+}
+
+.button__text {
+    width: 140px;
+    height: 50px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    background-color: #F25822;
+    color: white;
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;    
+}
+.button__text2 {
+    width: 140px;
+    height: 50px;margin-left: 27px;
+    border: 0px solid #ffffff;
+    background-color: #fff;
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;    
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.icon__button {
+    width: 30px;
+    height: 30px;
+    }
+.top__buttons span {
+    margin-left: 15px;
+    color: #AAA;
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 97px;
+    padding-bottom: 96px;
+    flex-wrap: wrap;
+}
+.logos img{
+    width: 160px;
+    height: 50px;
+}
