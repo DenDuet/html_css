@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+
+.center {
+    padding-left: calc(50% - 800px);
+    padding-right: calc(50% - 800px);
+}
+
+.page {
+    width: 1600px;
+    height: 875px;
+    background-color: #F1E4E6;
+}
+
+.header {
+    background-color: #222222;
+    width: 1600px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+}
+.icon {
+    padding-top: 18px;
+    padding-bottom: 19px;
+    padding-left: 231px;
+
+    width: 44px;
+    height: 38px;
+}
+.lense {
+    width: 26px;
+    height: 26px;
+    padding-top: 28px;
+    padding-bottom: 20px;
+    padding-left: 41px;
+}
+.burger {
+    padding-left: 859px;
+    padding-top: 30px;
+    padding-bottom: 22px;
+    padding-right: 25px;
+}
+.menu__man {
+    padding-bottom: 20px;
+    padding-right: 42px;
+    padding-top: 24px;
+}
+
+.basket {
+    padding-top: 26px;
+    padding-bottom: 20px;
+    /* display: inline-block; */
+    display: flex;
+    align-items: flex-start;
+    align-content: space-around;
+    flex-wrap: wrap;
+    position: relative;
+}
+.a__absolut1 {
+    position: absolute;
+    right: 0;
+    top: 20px;
+}
+.a__absolut2 {
+    position: absolute;
+    right: 6px;
+    top: 20px;
+}
+.top {
+    display: flex;
+    width: 1600px;
+    height: 764px;
+    align-content: flex-start;
+    position: relative;
+}
+
+.picture {
+    width: 800px;
+    padding-top: 35px;
+}
+
+.title {
+    display: flex;
+}
+.title img {
+    margin-top: 290px;
+    margin-left: 60px; 
+    width: 12px;
+    height: 92px;  
+}
+.title h1 {
+    width: 377px;
+    height: 93px;
+    margin-top: 290px;
+    margin-left: 16px;
+    color: #222;
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.brand {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #222;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+.fashion {
+    color: #F16D7F;
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;    
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.menu {
+    width: 232px;
+    height: 634px;
+    background-color: white;
+    color: #6F6E6E;
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;  
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    right: 0;
+}
+.man {
+    padding-bottom: 20px;
+    padding-right: 42px;
+}
+.woman {
+    padding-bottom: 20px;
+}
+.menu a {
+    margin-bottom: 11px;
+    padding-left: 54px;
+    display: inline-block;
+}
+h3 {
+    color: #000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 24px;
+    margin-left: 32px;
+    margin-top: 32px;
+}
+h4 {
+    color: #F16D7F;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 12px;
+    margin-left: 32px;
+}
