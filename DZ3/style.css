@@ -1,11 +1,32 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.body {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
+@font-face {
+    font-family: "Gilroy-Medium";
+    /* Браузер сначала попробует найти шрифт локально */
+    src: local("Gilroy-Medium"),
+         /* Если не получилось, загрузит woff2 */
+         url("font/Gilroy-Medium.woff2") format("woff2");
+  }
+@font-face {
+    font-family: "Gilroy-Bold";
+    /* Браузер сначала попробует найти шрифт локально */
+    src: local("Gilroy-Bold"),
+         /* Если не получилось, загрузит woff2 */
+         url("font/Gilroy-Bold.woff2") format("woff2");
+  }
+@font-face {
+    font-family: "Gilroy-Regular";
+    /* Браузер сначала попробует найти шрифт локально */
+    src: local("Gilroy-Regular"),
+         /* Если не получилось, загрузит woff2 */
+         url("font/Gilroy-Regular.woff2") format("woff2");
+  }
+  /* Теперь можно использовать шрифт */
+  body {
+    font-family: "Gilroy-Medium", "Arial", sans-serif;
+  }
 
 .header {
     width: 1172px;
@@ -30,7 +51,7 @@
 }
 
 .a__header {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    /* font-family: "Gilroy-Medium"; */
     text-decoration:none;
     color: #000;
     font-size: 14px;
@@ -55,7 +76,7 @@
     margin-top: 17px;
     color: #888;
     font-size: 20px;
-    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+    /* font-family: Gilroy-Medium; */
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -71,7 +92,7 @@
     width: 522px;
     position: relative;
     color: #000;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "Gilroy-Bold";
     font-size: 60px;
     font-style: normal;
     font-weight: 400;
@@ -96,7 +117,7 @@
     border-radius: 50px;
     background-color: #F25822;
     color: white;
-    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+    font-family: "Gilroy-Bold";
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
@@ -107,7 +128,7 @@
     height: 50px;margin-left: 27px;
     border: 0px solid #ffffff;
     background-color: #fff;
-    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;    
+    font-family: "Gilroy-Bold";
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
@@ -120,7 +141,7 @@
 .top__buttons span {
     margin-left: 15px;
     color: #AAA;
-    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+    font-family: "Gilroy-Bold";
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -137,4 +158,301 @@
 .logos img{
     width: 160px;
     height: 50px;
+}
+
+.page1__top {
+    width: 1920px;
+    height: 540px;
+    background: #FAFAFA;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.page1__top__text {
+    position: relative;
+}
+.page1__title {
+    color: #000;
+    font-family: "Gilroy-Bold";
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 409px;
+    z-index: 2;
+    margin-top: 125px;
+}
+.page1__p {
+    color: #666;
+    font-family: "Gilroy-Regular";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    width: 515px;
+    z-index: 2;
+}
+.page1__img {
+    width: 800px;
+    height: 600px;
+    z-index: 2;
+    margin-top: -23px;
+}
+
+.v1 {
+    width: 2895px;
+    height: 468px;
+    flex-shrink: 0;
+    transform: rotate(2deg);
+    stroke-width: 2px;
+    stroke: #F0F0F0;
+    position: absolute;
+    top: 106px;
+    left: -875px;
+    z-index: 1;
+}
+.v2 {
+    width: 3394px;
+    height: 549px;
+    flex-shrink: 0;
+    transform: rotate(-2deg);
+    stroke-width: 2px;
+    stroke: #F0F0F0;
+    position: absolute;
+    top: -100px;
+    left: -1091px;
+    z-index: 1;
+}
+.page1__top__text .top__buttons{
+    z-index: 2;
+    position: relative;
+      
+}
+.page2 {
+    width: 1915px;
+    height: 491px;
+    background: #FFF;
+}
+.page2__box {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.page2__icon {
+    margin-top: 40px;
+}
+.h3__page2 {
+    color: #000;
+    font-family: "Gilroy-Bold";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 25px;
+    margin-bottom: 17px;
+}
+.page2__p {
+    width: 310px;
+    height: 42px;
+    color: #666;
+    font-family: "Gilroy-Regular";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin-bottom: 25px;
+}
+a {
+    text-decoration: none;
+}
+.page2__a a:link {
+    display: inline-block;
+    color: #000;
+    font-family: "Gilroy-Bold";
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+.page2__card2 {
+    width: 370px;
+    height: 291px;
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+    margin-left: 61px;
+    margin-right: 59px;
+    padding-left: 29px;
+}
+
+.page3 {
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    width: 1920px;
+    height: 919px;
+    background: #FAFAFA;
+}
+.page3__box{
+
+    background: #FAFAFA; 
+    margin-left: 375px;  
+    margin-top: 55px;
+}
+.page3__cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+.page3__h2 {
+    color: #000;
+    font-family: "Gilroy-Bold";
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;  
+    padding-top: 92px;  
+    padding-bottom: 19px;
+    margin-left: 290px;
+
+}
+.page3__p {
+    color: #666;
+    text-align: center;
+    font-family: "Gilroy-Regular";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;    
+    width: 682px;
+    height: 48px;
+    margin-left: 244px;
+    margin-bottom: 50px;
+}
+.page3__card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 370px;
+    height: 549px;
+    background: #FFF;
+}
+.page3__card2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 370px;
+    height: 549px;
+    background: #FFF;
+    box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.10);
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.page3__card__img{
+    width: 100%;
+    height: 300px;    
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+.page3__card__h3{
+    color: #000;
+    font-family: "Gilroy-Bold";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;   
+}
+.page3__card__p{
+    width: 310px;
+    height: 63px;
+    color: #AAA;
+    text-align: center;
+    font-family: "Gilroy-Regular";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;   
+    margin-top: 22px; 
+    margin-bottom: 39px;
+}
+.page4 {
+    width: 1915px;
+    height: 800px; 
+    background: #FFF; 
+    display: flex;  
+}
+.page4__img{
+    margin: 0px 0 -50px -600px;
+    width: 1200px;
+    height: 900px; 
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;   
+}
+.page4__box {
+    margin-top: 107px;
+    margin-left: -20px;
+}
+.page4__h2{
+    color: #000;
+    font-family: "Gilroy-Bold";
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;  
+    width: 557px;
+    height: 112px;  
+}
+.page4__p{
+    width: 570px;
+    height: 41px;
+    color: #666;
+    font-family: "Gilroy-Regula"r;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+    margin-top: 19px;   
+}
+.page4__cards{
+    margin-top: 56px;
+}
+.page4__card {
+    width: 570px;
+    height: 134px;
+    display: flex;  
+    margin-top: 30px;  
+}
+.page4__card__img{
+    width: 100px;
+    height: 100px;
+    margin: 17px;    
+}
+.page4__card__h3{
+    color: #000;
+    font-family: "Gilroy-Bold";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+    width: 219px;
+    height: 30px;  
+    margin-left: 29px; 
+    margin-top: 24px;
+}
+.page4__card__p{
+    color: #666;
+    font-family: "Gilroy-Regular";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;  
+    margin-top: 8px;  
+    margin-left: 29px;
+    width: 362px;
+    height: 46px;
+}
+.page4__card2{
+    width: 570px;
+    height: 134px;    
+    margin-top: 30px;
+    display: flex;
+    background: #FFF;
+    box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.10);
+
 }
