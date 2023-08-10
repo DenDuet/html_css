@@ -272,7 +272,8 @@ span {
     width: 1140px;
     height: 180px;
     fill: rgba(33, 22, 22, 0.70);
-    background-image: url(img/foto4.png);    
+    background-image: url(img/foto4.png);  
+    background-size: cover;  
     position: relative;   
 }
 .icon_big_p4 h5 {
@@ -434,7 +435,7 @@ span {
     grid-column: span 3;
 }
 
-@media (min-width: 767px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1024px) {
     .page {
         width: 768px;
         height: 443px;
@@ -468,6 +469,7 @@ span {
         font-size: 44px;
     }
     .title h1 {
+        width: 300px;
         margin-top: 202px;
         font-size: 24px;
     }
@@ -482,9 +484,7 @@ span {
         grid-template-rows: 168px 116px;
         grid-template-columns: 230px 230px 230px;
         gap: 20px;
-        /* justify-content: center; 
-		flex-direction: column;
-		align-items: center;                */
+
     }   
     .icon_big_p4 {
         width: 734px;
@@ -518,8 +518,6 @@ span {
     .icon_p2 {
         width: 230px; 
         height: 168px;        
-
-
     }
     .icon_p3 {
         width: 230px; 
@@ -530,10 +528,6 @@ span {
         height: 116px;
     }          
     .page2 {
-/* 
-        grid-template-rows: 581px 581px 581px;
-        grid-template-columns: 360px 360px;        
-        gap: 16px; */
         display: flex;
         flex-direction: row;
         align-content: center;
@@ -548,12 +542,10 @@ span {
     .foto svg {
         width: 360px;
         height: 420px;
-        /* fill: none; */
         position: relative;
-
     }
     .add_to_cart {
-        z-index: 10;      
+        z-index: 8;      
     }
     .foto path {
         fill: rgba(58, 56, 56, 0.86);
@@ -562,4 +554,161 @@ span {
         right: 0; 
 
     }
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+    .page {
+        width: 375px;
+        height: 363px;
+    }  
+
+
+    .center {
+        margin: 0 auto;
+    }
+    .header {
+        width: 375px;
+        position: fixed;
+        top: 0;
+    }
+    .icon {
+        padding-left: 16px;
+        width: 44px;
+        height: 38px;
+    }
+    .burger {
+        padding-left: 200px;
+        width: 32px;
+        height: 23px;
+    }    
+    .menu__man {
+        display: none;
+    }
+    
+    .basket {
+        display: none;
+    }
+    .a__absolut1 {
+        display: none;
+    }
+    .a__absolut2 {
+        display: none;
+    }
+    .picture {
+        width: 375px;
+    }
+    .picture img {
+        display: none;
+        width: 200px;
+    }
+    .title img {
+        margin-top: 150px;
+        margin-left: 56px;
+        width: 12px;
+        height: 61px;
+    }
+    .brand {
+        font-size: 38px;
+    }
+    .title h1 {
+        width: 236px;
+        margin-top: 148px;
+        font-size: 20px;
+    }
+    .fashion {
+        font-size: 20px;
+    }
+    .top {
+        width: 375px;
+        flex-direction: column;
+    
+    }
+    .page1 {
+        width: 375px;
+        grid-template-rows: 247px 247px 247px 116px;
+        grid-template-columns: 343px;
+        gap: 20px;
+
+    }   
+    
+    svg {
+        width: 343px;
+        height: 247px;
+    }    
+
+    .icon_p2 h5 {
+        top: 101px;
+        left: 73px;
+        width: 199px;
+
+    }
+    .icon_p1 {
+        width: 343px; 
+        height: 248px;   
+    }
+    .icon_p1 h5 {
+        top: 98px;
+        left: 94px
+    }    
+    .icon_p3 h5 {
+        top: 105px;
+        left: 90px;
+        width: 163px;
+    }    
+    .icon_p2 {
+        width: 343px; 
+        height: 248px;        
+    }
+    .foto svg {
+        width: 360px;
+        height: 420px;
+        /* fill: none; */
+        position: relative;
+
+    }
+    .add_to_cart {
+        z-index: 8;      
+    }
+    .foto path {
+        fill: rgba(58, 56, 56, 0.86);
+        position: fixed;
+        bottom: 0;
+        right: 0; 
+    }    
+    .icon_p3 {
+        width: 343px; 
+        height: 248px; 
+
+    }  
+    .icon_big_p4 {
+        width: 343px;
+        height: 111px;    
+    }
+    .icon_big_p4 h5 {
+        top: 30px;
+        left: 92px;
+    }        
+    .icon_big_p4 svg {
+        width: 343px;
+        height: 111px;
+    }   
+    .page2 {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;        
+    }   
+    .page2__h2 {
+        width: 192px;
+    }     
+    .page2__p {
+        padding-top: 4px;
+        padding-bottom: 64px;
+    }
+    .button__text {
+        margin: 41px auto 85px auto;
+        width: 212px;
+    }
+
 }
