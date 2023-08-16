@@ -633,7 +633,7 @@ span {
     height: 32px;
     background-color: white;
     margin-right: 7px;
-    padding: 8px auto;
+    /* padding: 8px auto; */
     position: relative;
 
 }
